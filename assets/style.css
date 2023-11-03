@@ -57,6 +57,8 @@ footer {
 .second-row {
     border: 3px dashed var(--dark);
     padding: 10px;
+    width: 375px;
+    height: 350px;
 }
 
 #text-center {
