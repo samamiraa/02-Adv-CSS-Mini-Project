@@ -18,10 +18,16 @@ h1 {
 }
 
  h2  {
-    border: 3px solid var(--light);
+    border: 5px solid var(--light);
     padding: 20px 10px;
     color: var(--dark);
     border-radius: 8px;
+    margin-right: 200px;
+    text-align: center;
+}
+
+h3 {
+    color: var(--dark);
 }
 
 p {
@@ -33,4 +39,16 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.flexbox-row,
+.flexbox-column,
+.css-grid {
+    border: 5px dotted var(--dark);
+}
+
+#text-center {
+    margin: 25px 200px;
+    text-align: center;
+    line-height: 1.5;
 }
