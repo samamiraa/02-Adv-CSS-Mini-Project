@@ -19,7 +19,7 @@ h1 {
 
  h2  {
     border: 5px solid var(--light);
-    padding: 20px 10px;
+    padding: 10px 10px;
     color: var(--dark);
     border-radius: 8px;
     margin-right: 150px;
