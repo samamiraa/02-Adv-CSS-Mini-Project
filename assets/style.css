@@ -22,12 +22,14 @@ h1 {
     padding: 20px 10px;
     color: var(--dark);
     border-radius: 8px;
-    margin-right: 200px;
-    text-align: center;
+    margin-right: 150px;
+    font-size: 150%;
 }
 
 h3 {
-    color: var(--dark);
+    color: beige;
+    padding: 20px;
+    background-color: var(--dark);
 }
 
 p {
@@ -44,7 +46,7 @@ p {
 .flexbox-row,
 .flexbox-column,
 .css-grid {
-    border: 5px dotted var(--dark);
+    border: 3px dashed var(--dark);
 }
 
 #text-center {
