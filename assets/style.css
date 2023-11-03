@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(94, 94, 94);
+}
+
+header {
+    text-align: center;
+    margin: auto;
+}
+
+ h2  {
+    border: 3px solid rgb(52, 161, 245);
+    padding: 20px 10px;
+   
+}
+
+.display-flex {
+    display: flex;
+    flex-direction: row;
+}

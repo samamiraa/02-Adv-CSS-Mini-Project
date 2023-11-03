@@ -5,8 +5,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>CSS Snippet Cheatsheets</title>
-  <link rel="stylesheet" href="./assets/css/reset.css" />
-  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/reset.css" />
+  <link rel="stylesheet" href="./assets/style.css" />
 </head>
 
 <body>
@@ -16,8 +16,35 @@
     </header>    
 
     <main>
-      <section>
+      <section class="display-flex">
+        <div>
+          <h2>Flexbox Row</h2>
+            <p>Use these three properties to create a flexbox row layout</p>
+              <h3>. row {<br>
+                  display: flex;<br>
+                  flex-direction: row;<br>
+                  flex-wrap: wrap;<br>
+                }</h3>
+          </div>
 
+        <div>
+          <h2>Flexbox Column</h2>
+            <p>Use these to create a Flexbox column layout</p>
+              <h3>. column {<br>
+                  display: flex;<br>
+                  flex-direction: column;<br>
+                }</h3>
+        </div>
+
+        <div>
+          <h2>CSS Grid Layout</h2>
+            <p>Build a 12 column layout using CSS grid</p>
+              <h3>. grid {<br>
+              display: grid;<br>
+              width: 100%;<br>
+              grid-template-columns: repeat(12, 1fr);<br>
+              }</h3>
+        </div>
       </section>
     </main>
 
