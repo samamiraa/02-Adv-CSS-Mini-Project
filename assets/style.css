@@ -29,12 +29,15 @@ h1 {
 h3 {
     color: beige;
     padding: 20px;
-    background-color: var(--dark);
+    border-radius: 25px;
+    background: var(--dark);
     font-weight: 100;
+    line-height: 1.5;
 }
 
 p {
     margin: 20px 20px;
+    font-size: 1.25;
     color: var(--light);
 }
 
@@ -53,12 +56,18 @@ footer {
     padding: 10px;
 }
 
-.first-row,
+.first-row {
+    border: 3px dashed var(--dark);
+    padding: 10px;
+    width: 375px;
+    height: 310px;
+}
+
 .second-row {
     border: 3px dashed var(--dark);
     padding: 10px;
     width: 375px;
-    height: 350px;
+    height: 450px;
 }
 
 #text-center {
@@ -66,4 +75,5 @@ footer {
     text-align: center;
     line-height: 1.5;
 }
+
 
