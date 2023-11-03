@@ -23,7 +23,6 @@ h1 {
     padding: 10px 10px;
     color: var(--dark);
     border-radius: 8px;
-    margin-right: 150px;
     font-size: 150%;
 }
 
@@ -39,9 +38,16 @@ p {
     color: var(--light);
 }
 
+footer {
+    text-align: center;
+    font-size: 150%;
+    font-weight: 800;
+    padding: 20px;
+}
+
 .display-flex {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: space-around;
     padding: 10px;
 }
@@ -57,3 +63,4 @@ p {
     text-align: center;
     line-height: 1.5;
 }
+
