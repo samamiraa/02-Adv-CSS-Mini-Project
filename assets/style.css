@@ -1,19 +1,36 @@
+:root {
+    --dark: #00b69e;
+    --light: #b3ffeb;
+}
+
 body {
-    background-color: rgb(94, 94, 94);
+    background-color: #2a2a2a;
 }
 
 header {
     text-align: center;
-    margin: auto;
+    margin: 20px 20px;
+}
+
+h1 {
+    font-size: 200%;
+    color: var(--dark);
 }
 
  h2  {
-    border: 3px solid rgb(52, 161, 245);
+    border: 3px solid var(--light);
     padding: 20px 10px;
-   
+    color: var(--dark);
+    border-radius: 8px;
+}
+
+p {
+    margin: 20px 20px;
+    color: var(--light);
 }
 
 .display-flex {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
