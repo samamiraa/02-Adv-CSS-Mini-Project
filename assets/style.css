@@ -89,12 +89,11 @@ footer {
     line-height: 1.5;
 }
 
-@media screen and (max-width: 992px) {
-    .flex-container {
-        flex-direction: column;
-    }
-}
-
 .flex-container pre:active {
     user-select: all;
+    color: #2a2a2a;
   }
+
+.flex-container pre:hover {
+    box-shadow: inset 0px 0px 8px var(--light), 0 0 15px var(--light);
+}
