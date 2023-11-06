@@ -25,6 +25,7 @@ h1 {
     color: var(--dark);
     border-radius: 8px;
     font-size: 150%;
+    background-color: var(--darkgrey);
 }
 
 pre {
@@ -63,20 +64,25 @@ footer {
     padding: 10px;
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+}
+
 .first-row {
     outline: 3px dashed var(--dark);
-    outline-offset: 5px;
     padding: 10px;
     width: 375px;
-    height: 290px;
+    height: 270px;
 }
 
 .second-row {
     outline: 3px dashed var(--dark);
-    outline-offset: 5px;
     padding: 10px;
     width: 375px;
-    height: 450px;
 }
 
 .first-row,
@@ -100,13 +106,33 @@ footer {
     color: var(--darkgrey)
   }
 
-.flex-container h2:hover,
+.card-header:hover,  
 .first-row:hover,
 .second-row:hover {
-    box-shadow: inset 0px 0px 8px var(--light), 0 0 15px var(--light);
+    box-shadow: inset 0px 0px 10px var(--light), 0 0 20px var(--light);
 }
 
 .card-header {
     position: relative;
     margin-top: -40px;
   }
+
+ @media  screen and (max-width: 992px) {
+    h1,
+    h2,
+    p,
+    pre {
+        color: lightyellow;
+    }
+  
+ }
+
+ @media  screen and (max-width: 768px) {
+    h1,
+    h2,
+    p,
+    pre {
+        color: lightpink;
+    }
+  
+ }
