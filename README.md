@@ -13,15 +13,15 @@ N/A
 ## Usage
 
 There are a couple of different features i'd like to point out on this project. 
-First, we have a pseudo-class: hover. When we hover over each box, the dashed outline and each header will glow.
+First, we have a pseudo-class: hover. When we hover over each box, the dashed outline and each header will glow.<br>
 ie. Original<br>
-<img width="399" alt="flexbox-row" src="https://github.com/samamiraa/02-Adv-CSS-Mini-Project/assets/146762114/8c9437ea-d3b2-442f-a933-44f2df35304e">
+<img width="399" alt="flexbox-row" src="https://github.com/samamiraa/02-Adv-CSS-Mini-Project/assets/146762114/8c9437ea-d3b2-442f-a933-44f2df35304e"><br>
 Hover<br>
 <img width="397" alt="flexbox-row-glow" src="https://github.com/samamiraa/02-Adv-CSS-Mini-Project/assets/146762114/b0365872-36f0-4e84-8d12-18ed3c3f6316">
 
 Second, as it is a CSS code cheat sheet, when the user clicks the code it will highlight everything for the user so that is ready to copy.
 ie. Original<br>
-<img width="399" alt="flexbox-row" src="https://github.com/samamiraa/02-Adv-CSS-Mini-Project/assets/146762114/8c9437ea-d3b2-442f-a933-44f2df35304e">
+<img width="399" alt="flexbox-row" src="https://github.com/samamiraa/02-Adv-CSS-Mini-Project/assets/146762114/8c9437ea-d3b2-442f-a933-44f2df35304e"><br>
 Highlighted<br>
 <img width="398" alt="flexbox-row-highlight" src="https://github.com/samamiraa/02-Adv-CSS-Mini-Project/assets/146762114/04e317a4-c0e4-45e8-9f94-4489baa23cb4">
 
