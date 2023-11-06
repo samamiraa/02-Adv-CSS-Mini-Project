@@ -1,10 +1,11 @@
 :root {
     --dark: #00b69e;
     --light: #b3ffeb;
+    --darkgrey:  #2a2a2a;
 }
 
 body {
-    background-color: #2a2a2a;
+    background-color: var(--darkgrey);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -30,7 +31,10 @@ pre {
     color: beige;
     padding: 10px;
     border-radius: 25px;
-    background: var(--dark);
+    background: linear-gradient(
+        rgba(0, 182, 158, 0.3) 0%,
+        rgba(0, 182, 158, 0.6) 100% 
+    );
     font-weight: 100;
     font-size: 18px;
     line-height: 1.5;
@@ -40,7 +44,7 @@ pre {
 
 p {
     margin: 20px 20px;
-    font-size: 1.25;
+    font-size: 1.5;
     color: var(--light);
 }
 
@@ -91,9 +95,11 @@ footer {
 
 .flex-container pre:active {
     user-select: all;
-    color: #2a2a2a;
+    color: var(--darkgrey)
   }
 
-.flex-container pre:hover {
+.flex-container h2:hover,
+.first-row:hover,
+.second-row:hover {
     box-shadow: inset 0px 0px 8px var(--light), 0 0 15px var(--light);
 }
