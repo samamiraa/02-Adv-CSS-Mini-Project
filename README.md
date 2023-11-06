@@ -14,23 +14,23 @@ N/A
 
 There are a couple of different features i'd like to point out on this project. 
 First, we have a pseudo-class: hover. When we hover over each box, the dashed outline and each header will glow.
-ie. Original
+ie. Original<br>
 <img width="399" alt="flexbox-row" src="https://github.com/samamiraa/02-Adv-CSS-Mini-Project/assets/146762114/8c9437ea-d3b2-442f-a933-44f2df35304e">
-Hover
+Hover<br>
 <img width="397" alt="flexbox-row-glow" src="https://github.com/samamiraa/02-Adv-CSS-Mini-Project/assets/146762114/b0365872-36f0-4e84-8d12-18ed3c3f6316">
 
 Second, as it is a CSS code cheat sheet, when the user clicks the code it will highlight everything for the user so that is ready to copy.
-ie. Original
+ie. Original<br>
 <img width="399" alt="flexbox-row" src="https://github.com/samamiraa/02-Adv-CSS-Mini-Project/assets/146762114/8c9437ea-d3b2-442f-a933-44f2df35304e">
-Highlighted
+Highlighted<br>
 <img width="398" alt="flexbox-row-highlight" src="https://github.com/samamiraa/02-Adv-CSS-Mini-Project/assets/146762114/04e317a4-c0e4-45e8-9f94-4489baa23cb4">
 
 Lastly, media queries were added so that based on the device being used, the experience would be different. In this case, some of the font colors will change dependant on the screen size.
-ie. Desktop - Screen size greater than 992px
+ie. Desktop - Screen size greater than 992px<br>
 <img width="1280" alt="media-query-desktop" src="https://github.com/samamiraa/02-Adv-CSS-Mini-Project/assets/146762114/f3f51342-0676-4a1d-892a-3a2d1a27a079">
-Tablet Size - Between 769px and 992px
+Tablet Size - Between 769px and 992px<br>
 <img width="919" alt="media-query-992px" src="https://github.com/samamiraa/02-Adv-CSS-Mini-Project/assets/146762114/6b51cbdb-182e-4443-8ec0-3aa09c9c384c">
-Mobile Device - 768px and below
+Mobile Device - 768px and below<br>
 <img width="763" alt="media-query-768px" src="https://github.com/samamiraa/02-Adv-CSS-Mini-Project/assets/146762114/6a8de778-998e-4bf9-b072-2c93bdd97a17">
 
 
