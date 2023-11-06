@@ -34,6 +34,8 @@ pre {
     font-weight: 100;
     font-size: 18px;
     line-height: 1.5;
+    white-space: pre-wrap;
+    overflow: auto;
 }
 
 p {
@@ -73,6 +75,14 @@ footer {
     height: 450px;
 }
 
+.first-row,
+.second-row {
+    display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 100%;
+}
+
 #text-center {
     margin: 25px 200px;
     text-align: center;
@@ -85,4 +95,6 @@ footer {
     }
 }
 
-
+.flex-container pre:active {
+    user-select: all;
+  }
