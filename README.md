@@ -36,11 +36,16 @@ Mobile Device - 768px and below
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
+I really wanted to build as much of this project on my own by referring to google or class notes. The class notes helped me a lot, then I would resort to google. Lastly, I needed to reverse engineer certain things from the solutions provided for this project when I was really stumped.
+
 
 https://www.w3schools.com/css/tryit.asp?filename=trycss_border_round
 https://www.w3schools.com/css/tryit.asp?filename=trycss3_border-radius
 https://www.w3schools.com/tags/tag_pre.asp
+https://www.w3schools.com/css/css_pseudo_classes.asp
+https://www.w3schools.com/css/css3_mediaqueries.asp
+https://www.w3schools.com/css/css3_flexbox.asp
+https://www.w3schools.com/css/css3_gradients.asp
 
 ## License
 
@@ -52,18 +57,16 @@ The last section of a high-quality README file is the license. This lets other d
 
 ## Badges
 
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
+N/a
 
 ## Features
 
-If your project has a lot of features, list them here.
+See usage.
 
 ## How to Contribute
 
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
+N/a
 
 ## Tests
 
-Go the extra mile and write tests for your application.
+Please test the webpage by going through the examples in the usage section on the live url on each box.
