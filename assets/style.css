@@ -36,8 +36,9 @@ pre {
         rgba(0, 182, 158, 0.3) 0%,
         rgba(0, 182, 158, 0.6) 100% 
     );
+    font-family: monospace;
     font-weight: 100;
-    font-size: 18px;
+    font-size: 12px;
     line-height: 1.5;
     white-space: pre-wrap;
     overflow: auto;
@@ -124,7 +125,7 @@ footer {
     pre {
         color: lightyellow;
     }
-  
+
  }
 
  @media  screen and (max-width: 768px) {
@@ -134,5 +135,4 @@ footer {
     pre {
         color: lightpink;
     }
-  
  }
